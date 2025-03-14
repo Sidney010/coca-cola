@@ -1,37 +1,79 @@
 1. O que é um repositório no Git e qual a sua importância?
-    R: Consiste em um espaço virtual, em que se armazena arquivos, pastas e histórico de revisão de arquivos
-    permitindo que desenvolvedores colaborem entre si
+    R: Um repositório Git consiste em um espaço virtual, em que se armazena arquivos, pastas e históricos
+    de revisão de arquivos, permitindo que desenvolvedores colaborem entre si e controlem a evolução de 
+    seus projetos, como uma ferramenta de versionamento, apresentando enorme importancia na interação entre
+    os desenvolvedores, tornando seus trabalhos mais produtivos e organizados.
+
 2. Qual a função do Git Bash?
-R:
+    R: A função Git Bash é um aplicativo que permite o uso do Git em sistemas Windows por meio de uma
+    interface de linha de comendo, facilitando o gerenciamento de projetos e versões.
+
 3. O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
-R:
+    R: O comando git add serve para adicionar arquivos novos ou alterados ao índice do Git, o comando git
+    add <arquivo> tem a utilidade de adiciona um arquivo específico  já o arquivo git add ., possue a utilidade
+    de adiconar todos os arquivos alterados no diretório local.
+
+
 4. Por que utilizamos o ponto (.) no comando git add .?
-R:
+    R: O ponto (.) no comando git add . é usado para adicionar todos os arquivos modificados da pasta atual e de
+    todas as subpastas. 
+
 5. Explique o comando git commit e por que é importante criar uma mensagem descritiva.
-R:
+    R: o comando git commit serve para levar as mudanças de um ambiente local para o repositório no git, permitindo 
+    ainda a inserção de uma mensagem descritiva, nesta mendagem descritiva é importante informar as alterações que
+    foram feitas em relação ao ultimo arquivos salvos.
+
 6. Qual a função do comando git push?
-R:
+    R: O comando git push é usado para enviar conteúdo de um repositório local para um repositório remoto.
+
 7. Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
-R:
+    R: Apresenta grande importancia para registrar os progresso feitos, e o armazenamento seguro de arquivos
+    e pastas, podendo revisar o histórico caso queira.
+
 8. Explique a função das tags HTML e como elas estruturam uma página.
-R:
+    R: As tags HTML são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo
+    construída, podendo ser títulos, parágrafos, imagens, links, entre outros.
+
 9. O que são atributos em uma tag HTML e qual a sua função?
-R:
+    R: Os atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o
+    comportamento do elemento, usados como modificadores de um tipo de elemento HTML.
+
 10. O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
-R:
+    R: O Emmet é uma sintaxe abreviada pode ser usada para adicionar vários elementos HTML, em que 
+    apenas é necessarios digitar o nome do elemento, seguido por um asterisco (*) e o número de 
+    elementos que você deseja adicionar, facilitando e agilizado a programação, do que antes teria
+    que ser digitado letra por letra.
+
 11. O que é o box-sizing no CSS e por que usamos ele no reset inicial?
-R:
-12. Por que é importante utilizar tags semânticas no HTML?
-R:
+    R: A propriedade box-sizing do CSS define como são calculadas as larguras e alturas dos elementos,
+    sendo esta usada no incio para alterar o modelo de caixa padrão, que é content-box. 
+
+
+12. Por que é importante utilizar tags semânticas no HTML?  
+    R: As tags semânticas do HTML são importantes porque melhoram a acessibilidade, a otimização para
+    mecanismos de busca e a manutenção do código.
+
 13. O que são media queries no CSS e qual a sua função?
-R:
+    R: As Media Queries (consultas de mídia ) são um módulo de CSS que definem expressões, possuindo por
+    função ajustar visualizações a uma variedade específica de dispositivos de saída sem mudar o conteúdo.
+
 14. Qual a função do GitHub Pages?
-R:
+    R: O GitHub Pages é um serviço de hospedagem de sites estáticos, possuindo por função a publicação de 
+    conteúdo na web e executa-los por meio de um processo de compilação.
+
 15. O que é o Flexbox no CSS e para que ele é utilizado?
-R:
+    R: O Flexbox é uma ferramenta do CSS que permite criar layouts flexíveis e responsivos em páginas da web,
+    tem por utilidade distribuir e alinhar elementos em um contêiner, independentemente do tamanho da tela ou
+    do dispositivo.
+
 16. Qual a diferença entre justify-content e align-items em um container Flexbox?
-R:
+    R: Em um container Flexbox, a propriedade justify-content controla o alinhamento dos itens no eixo principal,
+    enquanto a propriedade align-items controla o alinhamento no eixo transversal. 
+
 17. Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
-R:
+    R: A propriedade flex-grow especifica o quanto o item aumentará em relação ao restante dos itens flexíveis
+    dentro do mesmo contêiner.
+
 18. Explique a diferença entre flex-direction: column; e flex-direction: row;.
-R:
+    R: A diferença entre usar flex-direction: row e flex-direction: column é que o flex-direction: row, organiza
+    os itens em linha, enquanto a segunda organiza os itens em coluna.
